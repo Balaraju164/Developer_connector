@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://bala164:bala164570@mernproject.4abz5.mongodb.net/<dbname>?retryWrites=true&w=majority",
+  "jwtsecret": "mytoken",
+  "githubId": "0951119818390239d13e",
+  "githubSecret": "99299a3652107d390e948e8bf1a9602b5b40ef44"
+}
