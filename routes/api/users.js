@@ -14,8 +14,8 @@ router.post(
   '/',
   [
     check('name', 'Name is required').not().isEmpty(),
-    check('email', 'Please provide valid email').isEmail(),
-    check('password', 'please enter correct password').isLength({ min: 8 }),
+    check('email', 'Please provide valid email').contains('@gmail.com').isEmail(),
+    check('password', 'password must contain 8 letters').isLength({ min: 8 }),
   ],
   async (req, res) => {
     const errors = validationResult(req);
