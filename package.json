@@ -15,7 +15,6 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "config": "^3.3.2",
-    "eject": "0.0.4",
     "express": "^4.17.1",
     "express-validator": "^6.6.1",
     "gravatar": "^1.8.1",
